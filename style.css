@@ -1,0 +1,49 @@
+.welcome-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .welcome-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #sign-btn{
+    background-color: rgb(127, 191, 255);
+    border: none;
+    border-radius: 3px;
+    width:75px;
+    height: 30px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+  }
+  .navbar{
+    background-color: rgb(127, 191, 255);
+  }
+  
+  .navbar a{
+    color: white;
+  }
+  
+  .button{
+    text-decoration: none;
+    color: white;
+  }
+  .card{
+    width: 400px;
+  height: 375px;
+  }
